@@ -1,0 +1,154 @@
+config:
+pretrained_embedding_file:H://competition/pre_embed/sgns.target.word-ngram.1-2.dynwin5.thr10.neg5.dim300.iter5
+data_dir:data/ctb60/
+train_file:train.ctb60.seg.hwc
+dev_file:dev.ctb60.seg.hwc
+test_file:test.ctb60.seg.hwc
+min_occur_cnt:0
+save_dir:saved/
+log_dir:log/
+log_file:log.txt
+best_model_file:best_model.model
+save_vocab_file:vocab.vocab
+save_after:10
+lstm_layers:1
+lstm_hiddens:200
+char_dims:300
+bichar_dims:300
+input_dims:300
+dropout_emb:0.33
+dropout_lstm_input:0.33
+dropout_lstm_hidden:0.33
+dropout_mlp:0
+optim:Adam
+learning_rate:0.002
+decay:0.75
+decay_steps:500
+beta_1:0.9
+beta_2:0.9
+epsilon:1e-12
+clip:5.0
+gpu:False
+num_buckets_train:40
+num_buckets_valid:10
+num_buckets_test:10
+train_iters:50
+train_batch_size:32
+test_batch_size:32
+validate_every:1
+update_every:4
+
+train num: 23401; dev num: 2078; test num: 2795
+Vocab info: #char 4227, #bichar 206964
+Step:0, epoch:0, batch:0, time:0.99, acc:0.47, loss:34.19
+Step:0, epoch:0, batch:1, time:1.63, acc:0.48, loss:28.98
+Step:0, epoch:0, batch:2, time:2.29, acc:0.49, loss:26.99
+Step:0, epoch:0, batch:3, time:2.80, acc:0.49, loss:29.69
+Step:1, epoch:0, batch:4, time:3.85, acc:0.47, loss:79.05
+Step:1, epoch:0, batch:5, time:4.59, acc:0.45, loss:82.83
+Step:1, epoch:0, batch:6, time:5.17, acc:0.44, loss:65.88
+Step:1, epoch:0, batch:7, time:5.63, acc:0.44, loss:76.84
+Step:2, epoch:0, batch:8, time:6.58, acc:0.46, loss:26.93
+Step:2, epoch:0, batch:9, time:7.18, acc:0.48, loss:33.50
+Step:2, epoch:0, batch:10, time:7.77, acc:0.50, loss:30.20
+Step:2, epoch:0, batch:11, time:8.46, acc:0.51, loss:32.53
+Step:3, epoch:0, batch:12, time:9.49, acc:0.51, loss:30.67
+Step:3, epoch:0, batch:13, time:10.09, acc:0.52, loss:29.89
+Step:3, epoch:0, batch:14, time:10.89, acc:0.53, loss:30.90
+Step:3, epoch:0, batch:15, time:11.39, acc:0.53, loss:26.90
+Step:4, epoch:0, batch:16, time:12.40, acc:0.54, loss:28.44
+Step:4, epoch:0, batch:17, time:13.04, acc:0.54, loss:20.45
+Step:4, epoch:0, batch:18, time:13.55, acc:0.55, loss:20.78
+Step:4, epoch:0, batch:19, time:14.28, acc:0.55, loss:25.24
+Step:5, epoch:0, batch:20, time:15.21, acc:0.55, loss:26.25
+Step:5, epoch:0, batch:21, time:15.76, acc:0.54, loss:21.71
+Step:5, epoch:0, batch:22, time:16.20, acc:0.54, loss:20.88
+Step:5, epoch:0, batch:23, time:16.74, acc:0.54, loss:22.37
+Step:6, epoch:0, batch:24, time:18.74, acc:0.54, loss:22.27
+Step:6, epoch:0, batch:25, time:19.33, acc:0.54, loss:20.25
+Step:6, epoch:0, batch:26, time:20.06, acc:0.54, loss:21.79
+Step:6, epoch:0, batch:27, time:20.75, acc:0.54, loss:17.80
+Step:7, epoch:0, batch:28, time:21.69, acc:0.54, loss:21.36
+Step:7, epoch:0, batch:29, time:22.29, acc:0.55, loss:21.79
+Step:7, epoch:0, batch:30, time:23.12, acc:0.56, loss:16.09
+Step:7, epoch:0, batch:31, time:23.78, acc:0.57, loss:21.41
+Step:8, epoch:0, batch:32, time:25.51, acc:0.58, loss:23.89
+Step:8, epoch:0, batch:33, time:26.41, acc:0.59, loss:21.88
+Step:8, epoch:0, batch:34, time:27.05, acc:0.59, loss:15.10
+Step:8, epoch:0, batch:35, time:27.73, acc:0.60, loss:23.80
+Step:9, epoch:0, batch:36, time:28.65, acc:0.60, loss:15.67
+Step:9, epoch:0, batch:37, time:29.13, acc:0.61, loss:12.89
+Step:9, epoch:0, batch:38, time:30.25, acc:0.61, loss:18.24
+Step:9, epoch:0, batch:39, time:34.00, acc:0.62, loss:15.74
+Step:10, epoch:0, batch:40, time:34.89, acc:0.62, loss:15.58
+Step:10, epoch:0, batch:41, time:35.59, acc:0.62, loss:15.33
+Step:10, epoch:0, batch:42, time:39.20, acc:0.63, loss:16.63
+Step:10, epoch:0, batch:43, time:39.84, acc:0.63, loss:13.31
+Step:11, epoch:0, batch:44, time:40.70, acc:0.63, loss:12.75
+Step:11, epoch:0, batch:45, time:42.11, acc:0.63, loss:17.10
+Step:11, epoch:0, batch:46, time:42.75, acc:0.64, loss:15.84
+Step:11, epoch:0, batch:47, time:43.35, acc:0.64, loss:14.30
+Step:12, epoch:0, batch:48, time:44.87, acc:0.64, loss:13.59
+Step:12, epoch:0, batch:49, time:47.91, acc:0.65, loss:16.79
+Step:12, epoch:0, batch:50, time:48.65, acc:0.65, loss:13.71
+Step:12, epoch:0, batch:51, time:49.29, acc:0.66, loss:12.52
+Step:13, epoch:0, batch:52, time:51.30, acc:0.66, loss:9.20
+Step:13, epoch:0, batch:53, time:52.01, acc:0.67, loss:11.32
+Step:13, epoch:0, batch:54, time:52.70, acc:0.67, loss:11.05
+Step:13, epoch:0, batch:55, time:53.41, acc:0.67, loss:12.51
+Step:14, epoch:0, batch:56, time:54.42, acc:0.68, loss:12.10
+Step:14, epoch:0, batch:57, time:56.67, acc:0.68, loss:13.03
+Step:14, epoch:0, batch:58, time:57.34, acc:0.69, loss:16.11
+Step:14, epoch:0, batch:59, time:57.98, acc:0.69, loss:10.35
+Step:15, epoch:0, batch:60, time:58.99, acc:0.69, loss:10.56
+Step:15, epoch:0, batch:61, time:59.58, acc:0.70, loss:10.69
+Step:15, epoch:0, batch:62, time:60.70, acc:0.70, loss:14.89
+Step:15, epoch:0, batch:63, time:61.21, acc:0.70, loss:8.83
+Step:16, epoch:0, batch:64, time:62.19, acc:0.71, loss:7.24
+Step:16, epoch:0, batch:65, time:62.85, acc:0.71, loss:8.94
+Step:16, epoch:0, batch:66, time:63.41, acc:0.71, loss:10.70
+Step:16, epoch:0, batch:67, time:64.02, acc:0.71, loss:12.74
+Step:17, epoch:0, batch:68, time:67.29, acc:0.72, loss:12.38
+Step:17, epoch:0, batch:69, time:68.06, acc:0.72, loss:10.36
+Step:17, epoch:0, batch:70, time:68.78, acc:0.72, loss:10.05
+Step:17, epoch:0, batch:71, time:69.36, acc:0.73, loss:10.44
+Step:18, epoch:0, batch:72, time:70.23, acc:0.73, loss:8.50
+Step:18, epoch:0, batch:73, time:70.93, acc:0.73, loss:13.10
+Step:18, epoch:0, batch:74, time:71.66, acc:0.73, loss:7.77
+Step:18, epoch:0, batch:75, time:72.36, acc:0.73, loss:10.82
+Step:19, epoch:0, batch:76, time:76.38, acc:0.74, loss:13.50
+Step:19, epoch:0, batch:77, time:76.90, acc:0.74, loss:10.27
+Step:19, epoch:0, batch:78, time:77.43, acc:0.74, loss:10.37
+Step:19, epoch:0, batch:79, time:78.02, acc:0.74, loss:11.17
+Step:20, epoch:0, batch:80, time:78.83, acc:0.74, loss:7.09
+Step:20, epoch:0, batch:81, time:79.92, acc:0.75, loss:9.22
+Step:20, epoch:0, batch:82, time:80.54, acc:0.75, loss:8.43
+Step:20, epoch:0, batch:83, time:82.95, acc:0.75, loss:6.87
+Step:21, epoch:0, batch:84, time:84.06, acc:0.75, loss:9.22
+Step:21, epoch:0, batch:85, time:84.64, acc:0.75, loss:8.88
+Step:21, epoch:0, batch:86, time:85.27, acc:0.76, loss:9.54
+Step:21, epoch:0, batch:87, time:85.97, acc:0.76, loss:9.08
+Step:22, epoch:0, batch:88, time:87.05, acc:0.76, loss:9.00
+Step:22, epoch:0, batch:89, time:87.71, acc:0.76, loss:7.39
+Step:22, epoch:0, batch:90, time:88.23, acc:0.76, loss:6.44
+Step:22, epoch:0, batch:91, time:89.07, acc:0.77, loss:8.04
+Step:23, epoch:0, batch:92, time:90.10, acc:0.77, loss:9.31
+Step:23, epoch:0, batch:93, time:90.62, acc:0.77, loss:6.28
+Step:23, epoch:0, batch:94, time:91.20, acc:0.77, loss:7.45
+Step:23, epoch:0, batch:95, time:91.81, acc:0.77, loss:7.18
+Step:24, epoch:0, batch:96, time:92.99, acc:0.77, loss:9.95
+Step:24, epoch:0, batch:97, time:93.51, acc:0.78, loss:5.28
+Step:24, epoch:0, batch:98, time:94.18, acc:0.78, loss:7.29
+Step:24, epoch:0, batch:99, time:94.93, acc:0.78, loss:7.67
+Step:25, epoch:0, batch:100, time:96.17, acc:0.78, loss:7.06
+Step:25, epoch:0, batch:101, time:96.92, acc:0.78, loss:5.71
+Step:25, epoch:0, batch:102, time:97.60, acc:0.78, loss:7.79
+Step:25, epoch:0, batch:103, time:98.33, acc:0.78, loss:8.61
+Step:26, epoch:0, batch:104, time:99.24, acc:0.78, loss:7.48
+Step:26, epoch:0, batch:105, time:99.85, acc:0.79, loss:7.08
+Step:26, epoch:0, batch:106, time:103.72, acc:0.79, loss:9.26
+Step:26, epoch:0, batch:107, time:104.31, acc:0.79, loss:9.63
+Step:27, epoch:0, batch:108, time:105.21, acc:0.79, loss:6.54
+Step:27, epoch:0, batch:109, time:106.86, acc:0.79, loss:6.65
+Step:27, epoch:0, batch:110, time:109.54, acc:0.79, loss:9.95
+Step:27, epoch:0, batch:111, time:110.32, acc:0.79, loss:5.27
