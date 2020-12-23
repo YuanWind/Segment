@@ -28,7 +28,6 @@ class Metric:
 
     def print(self):
         if self.TP == 0:
-
             log=("Fmeasure: 0.0")
             print(log)
             log_.fprint_log(log)

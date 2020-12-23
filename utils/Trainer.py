@@ -141,11 +141,11 @@ def train(train_data, dev_data,test_data, vocab, config, model):
             dev_seg_eval.print()
             segment(test_data, model, vocab, config, config.data_dir+config.test_file + '.test.tmp')
             test_seg_eval = evaluate(config.data_dir+config.test_file, config.data_dir+config.test_file +'.test.tmp')
-            log("Test:")
+            log=("Test:")
             print(log)
             log_.fprint_log(log)
             test_seg_eval.print()
-            dev_F = dev_seg_eval.getAccuracy()
+            dev_F = dev_seg_eval.getF1()
             if best_F < dev_F:
                 log=("Exceed best Full F-score: history = %.2f, current = %.2f" % (best_F, dev_F))
                 print(log)
