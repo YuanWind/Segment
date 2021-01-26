@@ -9,6 +9,7 @@ import random
 import numpy as np
 import torch
 import torch.nn as nn
+from torch.autograd import Variable
 from tqdm import tqdm
 from utils import GobalVar
 log_=GobalVar.get_value('log_')
@@ -83,7 +84,15 @@ def load_pretrained_vec(embfile,log_):
         print(log)
         log_.fprint_log(log)
     return embeddings, id2elem, elem2id
-
+def drop_input_independent(word_embeddings, dropout_emb):
+    batch_size, seq_length, _ = word_embeddings.size()
+    word_masks = word_embeddings.data.new(batch_size, seq_length).fill_(1 - dropout_emb)
+    word_masks = Variable(torch.bernoulli(word_masks), requires_grad=False)
+    scale = 3.0 / (2.0 * word_masks + 1e-12)
+    word_masks *= scale
+    word_masks = word_masks.unsqueeze(dim=2)
+    word_embeddings = word_embeddings * word_masks
+    return word_embeddings
 def split_pretrained_vec(embfile):
     """在预训练文件中提取出char和bichar的向量，用pickle保存"""
     embedding_dim = -1
@@ -125,8 +134,8 @@ def split_pretrained_vec(embfile):
                 bichar_index += 1
     char_embeddings[1] = char_embeddings[1] / char_count
     bichar_embeddings[1] = bichar_embeddings[1] / bichar_count
-    char_embeddings = char_embeddings / torch.std(char_embeddings)
-    bichar_embeddings = bichar_embeddings / torch.std(bichar_embeddings)
+    #char_embeddings = char_embeddings / torch.std(char_embeddings)
+    #bichar_embeddings = bichar_embeddings / torch.std(bichar_embeddings)
     char_elem2id = reverse(char_id2elem)
     bichar_elem2id = reverse(bichar_id2elem)
     if len(char_elem2id) != len(char_id2elem):

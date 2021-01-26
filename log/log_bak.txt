@@ -774,10 +774,10 @@ Step:182, epoch:0, batch:728, time:161.28, acc:0.92, loss:3.85
 Step:182, epoch:0, batch:729, time:161.49, acc:0.92, loss:3.93
 Step:182, epoch:0, batch:730, time:161.71, acc:0.92, loss:6.19
 Step:182, epoch:0, batch:731, time:161.98, acc:0.92, loss:3.83
-sentence num: 2078,  segment time = 9.66 
+sentence num: 2078,  segment time = 9.66
 Dev:
 Recall: 57254/59929=0.955364; Precision: 57254/60354=0.948636; Fmeasure: 0.951988
-sentence num: 2795,  segment time = 12.76 
+sentence num: 2795,  segment time = 12.76
 Test:
 Recall: 77665/81579=0.952022; Precision: 77665/81921=0.948048; Fmeasure: 0.950031
 Exceed best Full F-score: history = 0.00, current = 0.95
@@ -1514,10 +1514,10 @@ Step:365, epoch:1, batch:728, time:161.89, acc:0.97, loss:2.47
 Step:365, epoch:1, batch:729, time:162.09, acc:0.97, loss:3.15
 Step:365, epoch:1, batch:730, time:162.26, acc:0.97, loss:3.17
 Step:365, epoch:1, batch:731, time:162.48, acc:0.97, loss:2.16
-sentence num: 2078,  segment time = 9.20 
+sentence num: 2078,  segment time = 9.20
 Dev:
 Recall: 57402/59929=0.957833; Precision: 57402/59918=0.958009; Fmeasure: 0.957921
-sentence num: 2795,  segment time = 12.28 
+sentence num: 2795,  segment time = 12.28
 Test:
 Recall: 77632/81579=0.951617; Precision: 77632/81259=0.955365; Fmeasure: 0.953488
 Exceed best Full F-score: history = 0.95, current = 0.96
@@ -2254,10 +2254,10 @@ Step:548, epoch:2, batch:728, time:163.90, acc:0.98, loss:2.00
 Step:548, epoch:2, batch:729, time:164.19, acc:0.98, loss:3.67
 Step:548, epoch:2, batch:730, time:164.43, acc:0.98, loss:2.27
 Step:548, epoch:2, batch:731, time:164.62, acc:0.98, loss:1.94
-sentence num: 2078,  segment time = 9.60 
+sentence num: 2078,  segment time = 9.60
 Dev:
 Recall: 57482/59929=0.959168; Precision: 57482/59908=0.959505; Fmeasure: 0.959336
-sentence num: 2795,  segment time = 13.24 
+sentence num: 2795,  segment time = 13.24
 Test:
 Recall: 77763/81579=0.953223; Precision: 77763/81239=0.957213; Fmeasure: 0.955214
 Exceed best Full F-score: history = 0.96, current = 0.96
@@ -2994,10 +2994,10 @@ Step:731, epoch:3, batch:728, time:168.39, acc:0.99, loss:2.29
 Step:731, epoch:3, batch:729, time:168.60, acc:0.99, loss:2.00
 Step:731, epoch:3, batch:730, time:168.80, acc:0.99, loss:1.99
 Step:731, epoch:3, batch:731, time:169.08, acc:0.99, loss:2.01
-sentence num: 2078,  segment time = 9.59 
+sentence num: 2078,  segment time = 9.59
 Dev:
 Recall: 57586/59929=0.960904; Precision: 57586/60127=0.957739; Fmeasure: 0.959319
-sentence num: 2795,  segment time = 12.82 
+sentence num: 2795,  segment time = 12.82
 Test:
 Recall: 78040/81579=0.956619; Precision: 78040/81565=0.956783; Fmeasure: 0.956701
 Step:732, epoch:4, batch:0, time:0.22, acc:0.99, loss:1.55
@@ -3732,10 +3732,10 @@ Step:914, epoch:4, batch:728, time:167.57, acc:0.99, loss:2.18
 Step:914, epoch:4, batch:729, time:168.14, acc:0.99, loss:2.85
 Step:914, epoch:4, batch:730, time:168.39, acc:0.99, loss:1.65
 Step:914, epoch:4, batch:731, time:168.60, acc:0.99, loss:1.69
-sentence num: 2078,  segment time = 9.76 
+sentence num: 2078,  segment time = 9.76
 Dev:
 Recall: 57518/59929=0.959769; Precision: 57518/59834=0.961293; Fmeasure: 0.960530
-sentence num: 2795,  segment time = 12.81 
+sentence num: 2795,  segment time = 12.81
 Test:
 Recall: 77724/81579=0.952745; Precision: 77724/81064=0.958798; Fmeasure: 0.955762
 Exceed best Full F-score: history = 0.96, current = 0.96
@@ -4472,10 +4472,10 @@ Step:1097, epoch:5, batch:728, time:166.32, acc:0.99, loss:0.28
 Step:1097, epoch:5, batch:729, time:166.59, acc:0.99, loss:1.45
 Step:1097, epoch:5, batch:730, time:166.90, acc:0.99, loss:0.89
 Step:1097, epoch:5, batch:731, time:167.12, acc:0.99, loss:0.97
-sentence num: 2078,  segment time = 9.73 
+sentence num: 2078,  segment time = 9.73
 Dev:
 Recall: 57407/59929=0.957917; Precision: 57407/59748=0.960819; Fmeasure: 0.959366
-sentence num: 2795,  segment time = 12.97 
+sentence num: 2795,  segment time = 12.97
 Test:
 Recall: 77564/81579=0.950784; Precision: 77564/80953=0.958136; Fmeasure: 0.954446
 Step:1098, epoch:6, batch:0, time:0.24, acc:0.99, loss:0.64
@@ -5210,10 +5210,10 @@ Step:1280, epoch:6, batch:728, time:162.16, acc:0.99, loss:1.10
 Step:1280, epoch:6, batch:729, time:162.45, acc:0.99, loss:1.53
 Step:1280, epoch:6, batch:730, time:162.66, acc:0.99, loss:1.02
 Step:1280, epoch:6, batch:731, time:162.86, acc:0.99, loss:1.45
-sentence num: 2078,  segment time = 9.66 
+sentence num: 2078,  segment time = 9.66
 Dev:
 Recall: 57508/59929=0.959602; Precision: 57508/59941=0.959410; Fmeasure: 0.959506
-sentence num: 2795,  segment time = 12.77 
+sentence num: 2795,  segment time = 12.77
 Test:
 Recall: 77722/81579=0.952721; Precision: 77722/81248=0.956602; Fmeasure: 0.954657
 Step:1281, epoch:7, batch:0, time:0.23, acc:0.99, loss:1.70
@@ -5948,10 +5948,10 @@ Step:1463, epoch:7, batch:728, time:161.95, acc:0.99, loss:1.22
 Step:1463, epoch:7, batch:729, time:162.09, acc:0.99, loss:0.46
 Step:1463, epoch:7, batch:730, time:162.23, acc:0.99, loss:0.80
 Step:1463, epoch:7, batch:731, time:162.45, acc:0.99, loss:0.71
-sentence num: 2078,  segment time = 9.71 
+sentence num: 2078,  segment time = 9.71
 Dev:
 Recall: 57444/59929=0.958534; Precision: 57444/59825=0.960201; Fmeasure: 0.959367
-sentence num: 2795,  segment time = 12.89 
+sentence num: 2795,  segment time = 12.89
 Test:
 Recall: 77660/81579=0.951961; Precision: 77660/81111=0.957453; Fmeasure: 0.954699
 Step:1464, epoch:8, batch:0, time:0.22, acc:0.99, loss:1.21
@@ -6686,10 +6686,10 @@ Step:1646, epoch:8, batch:728, time:161.78, acc:0.99, loss:0.68
 Step:1646, epoch:8, batch:729, time:161.98, acc:0.99, loss:0.83
 Step:1646, epoch:8, batch:730, time:162.17, acc:0.99, loss:1.01
 Step:1646, epoch:8, batch:731, time:162.39, acc:0.99, loss:0.94
-sentence num: 2078,  segment time = 9.46 
+sentence num: 2078,  segment time = 9.46
 Dev:
 Recall: 57456/59929=0.958735; Precision: 57456/59843=0.960112; Fmeasure: 0.959423
-sentence num: 2795,  segment time = 12.91 
+sentence num: 2795,  segment time = 12.91
 Test:
 Recall: 77652/81579=0.951863; Precision: 77652/81173=0.956624; Fmeasure: 0.954237
 Step:1647, epoch:9, batch:0, time:0.26, acc:0.99, loss:1.13
@@ -7424,10 +7424,10 @@ Step:1829, epoch:9, batch:728, time:169.85, acc:0.99, loss:1.02
 Step:1829, epoch:9, batch:729, time:170.09, acc:0.99, loss:0.63
 Step:1829, epoch:9, batch:730, time:170.37, acc:0.99, loss:1.19
 Step:1829, epoch:9, batch:731, time:170.57, acc:0.99, loss:0.66
-sentence num: 2078,  segment time = 9.88 
+sentence num: 2078,  segment time = 9.88
 Dev:
 Recall: 57576/59929=0.960737; Precision: 57576/60074=0.958418; Fmeasure: 0.959576
-sentence num: 2795,  segment time = 13.23 
+sentence num: 2795,  segment time = 13.23
 Test:
 Recall: 77958/81579=0.955614; Precision: 77958/81528=0.956211; Fmeasure: 0.955912
 Step:1830, epoch:10, batch:0, time:0.19, acc:0.99, loss:0.42
@@ -8162,10 +8162,10 @@ Step:2012, epoch:10, batch:728, time:170.36, acc:0.99, loss:0.56
 Step:2012, epoch:10, batch:729, time:170.63, acc:0.99, loss:1.04
 Step:2012, epoch:10, batch:730, time:170.80, acc:0.99, loss:0.37
 Step:2012, epoch:10, batch:731, time:171.01, acc:0.99, loss:0.47
-sentence num: 2078,  segment time = 9.88 
+sentence num: 2078,  segment time = 9.88
 Dev:
 Recall: 57454/59929=0.958701; Precision: 57454/59875=0.959566; Fmeasure: 0.959133
-sentence num: 2795,  segment time = 13.21 
+sentence num: 2795,  segment time = 13.21
 Test:
 Recall: 77769/81579=0.953297; Precision: 77769/81239=0.957287; Fmeasure: 0.955287
 Step:2013, epoch:11, batch:0, time:0.20, acc:0.99, loss:0.94
@@ -8900,10 +8900,10 @@ Step:2195, epoch:11, batch:728, time:166.71, acc:0.99, loss:0.26
 Step:2195, epoch:11, batch:729, time:166.92, acc:0.99, loss:0.81
 Step:2195, epoch:11, batch:730, time:167.19, acc:0.99, loss:1.01
 Step:2195, epoch:11, batch:731, time:167.38, acc:0.99, loss:0.31
-sentence num: 2078,  segment time = 9.79 
+sentence num: 2078,  segment time = 9.79
 Dev:
 Recall: 57411/59929=0.957984; Precision: 57411/59935=0.957888; Fmeasure: 0.957936
-sentence num: 2795,  segment time = 13.04 
+sentence num: 2795,  segment time = 13.04
 Test:
 Recall: 77770/81579=0.953309; Precision: 77770/81352=0.955969; Fmeasure: 0.954637
 Step:2196, epoch:12, batch:0, time:0.31, acc:0.99, loss:0.82
@@ -9638,10 +9638,10 @@ Step:2378, epoch:12, batch:728, time:164.43, acc:0.99, loss:0.60
 Step:2378, epoch:12, batch:729, time:164.61, acc:0.99, loss:0.78
 Step:2378, epoch:12, batch:730, time:164.83, acc:0.99, loss:0.46
 Step:2378, epoch:12, batch:731, time:164.99, acc:0.99, loss:1.05
-sentence num: 2078,  segment time = 9.65 
+sentence num: 2078,  segment time = 9.65
 Dev:
 Recall: 57511/59929=0.959652; Precision: 57511/60133=0.956397; Fmeasure: 0.958022
-sentence num: 2795,  segment time = 14.17 
+sentence num: 2795,  segment time = 14.17
 Test:
 Recall: 77995/81579=0.956067; Precision: 77995/81657=0.955154; Fmeasure: 0.955610
 Step:2379, epoch:13, batch:0, time:0.21, acc:1.00, loss:0.42
@@ -10376,10 +10376,10 @@ Step:2561, epoch:13, batch:728, time:164.54, acc:0.99, loss:0.61
 Step:2561, epoch:13, batch:729, time:164.72, acc:0.99, loss:1.14
 Step:2561, epoch:13, batch:730, time:164.94, acc:0.99, loss:1.65
 Step:2561, epoch:13, batch:731, time:165.15, acc:0.99, loss:0.55
-sentence num: 2078,  segment time = 9.65 
+sentence num: 2078,  segment time = 9.65
 Dev:
 Recall: 57518/59929=0.959769; Precision: 57518/60207=0.955337; Fmeasure: 0.957548
-sentence num: 2795,  segment time = 12.93 
+sentence num: 2795,  segment time = 12.93
 Test:
 Recall: 78029/81579=0.956484; Precision: 78029/81753=0.954448; Fmeasure: 0.955465
 Step:2562, epoch:14, batch:0, time:0.29, acc:0.99, loss:0.69
@@ -11114,10 +11114,10 @@ Step:2744, epoch:14, batch:728, time:166.06, acc:0.99, loss:0.26
 Step:2744, epoch:14, batch:729, time:166.30, acc:0.99, loss:0.51
 Step:2744, epoch:14, batch:730, time:166.58, acc:0.99, loss:0.50
 Step:2744, epoch:14, batch:731, time:166.77, acc:0.99, loss:0.54
-sentence num: 2078,  segment time = 9.66 
+sentence num: 2078,  segment time = 9.66
 Dev:
 Recall: 57544/59929=0.960203; Precision: 57544/60110=0.957312; Fmeasure: 0.958755
-sentence num: 2795,  segment time = 12.99 
+sentence num: 2795,  segment time = 12.99
 Test:
 Recall: 77995/81579=0.956067; Precision: 77995/81620=0.955587; Fmeasure: 0.955827
 Step:2745, epoch:15, batch:0, time:0.29, acc:0.99, loss:0.92
@@ -11852,10 +11852,10 @@ Step:2927, epoch:15, batch:728, time:165.50, acc:1.00, loss:0.49
 Step:2927, epoch:15, batch:729, time:165.71, acc:1.00, loss:0.31
 Step:2927, epoch:15, batch:730, time:165.95, acc:1.00, loss:0.47
 Step:2927, epoch:15, batch:731, time:166.19, acc:1.00, loss:0.74
-sentence num: 2078,  segment time = 9.61 
+sentence num: 2078,  segment time = 9.61
 Dev:
 Recall: 57407/59929=0.957917; Precision: 57407/59797=0.960031; Fmeasure: 0.958973
-sentence num: 2795,  segment time = 12.96 
+sentence num: 2795,  segment time = 12.96
 Test:
 Recall: 77686/81579=0.952279; Precision: 77686/81146=0.957361; Fmeasure: 0.954813
 Step:2928, epoch:16, batch:0, time:0.25, acc:0.99, loss:0.50
@@ -12590,10 +12590,10 @@ Step:3110, epoch:16, batch:728, time:166.33, acc:1.00, loss:0.43
 Step:3110, epoch:16, batch:729, time:166.50, acc:1.00, loss:0.33
 Step:3110, epoch:16, batch:730, time:166.74, acc:1.00, loss:0.83
 Step:3110, epoch:16, batch:731, time:167.00, acc:1.00, loss:0.20
-sentence num: 2078,  segment time = 9.84 
+sentence num: 2078,  segment time = 9.84
 Dev:
 Recall: 57499/59929=0.959452; Precision: 57499/60105=0.956643; Fmeasure: 0.958045
-sentence num: 2795,  segment time = 13.19 
+sentence num: 2795,  segment time = 13.19
 Test:
 Recall: 77896/81579=0.954854; Precision: 77896/81561=0.955064; Fmeasure: 0.954959
 Step:3111, epoch:17, batch:0, time:0.26, acc:0.99, loss:0.38
@@ -13328,10 +13328,10 @@ Step:3293, epoch:17, batch:728, time:166.82, acc:1.00, loss:0.59
 Step:3293, epoch:17, batch:729, time:166.99, acc:1.00, loss:0.66
 Step:3293, epoch:17, batch:730, time:167.25, acc:1.00, loss:0.81
 Step:3293, epoch:17, batch:731, time:167.44, acc:1.00, loss:0.34
-sentence num: 2078,  segment time = 9.72 
+sentence num: 2078,  segment time = 9.72
 Dev:
 Recall: 57631/59929=0.961655; Precision: 57631/60402=0.954124; Fmeasure: 0.957875
-sentence num: 2795,  segment time = 13.04 
+sentence num: 2795,  segment time = 13.04
 Test:
 Recall: 78144/81579=0.957894; Precision: 78144/82030=0.952627; Fmeasure: 0.955253
 Step:3294, epoch:18, batch:0, time:0.30, acc:1.00, loss:0.41
@@ -14066,10 +14066,10 @@ Step:3476, epoch:18, batch:728, time:166.57, acc:1.00, loss:0.50
 Step:3476, epoch:18, batch:729, time:166.79, acc:1.00, loss:0.46
 Step:3476, epoch:18, batch:730, time:167.02, acc:1.00, loss:0.30
 Step:3476, epoch:18, batch:731, time:167.24, acc:1.00, loss:0.56
-sentence num: 2078,  segment time = 10.00 
+sentence num: 2078,  segment time = 10.00
 Dev:
 Recall: 57293/59929=0.956015; Precision: 57293/59715=0.959441; Fmeasure: 0.957725
-sentence num: 2795,  segment time = 13.23 
+sentence num: 2795,  segment time = 13.23
 Test:
 Recall: 77517/81579=0.950208; Precision: 77517/81016=0.956811; Fmeasure: 0.953498
 Step:3477, epoch:19, batch:0, time:0.23, acc:1.00, loss:0.35
@@ -14804,10 +14804,10 @@ Step:3659, epoch:19, batch:728, time:164.48, acc:1.00, loss:0.59
 Step:3659, epoch:19, batch:729, time:164.72, acc:1.00, loss:0.99
 Step:3659, epoch:19, batch:730, time:164.93, acc:1.00, loss:0.44
 Step:3659, epoch:19, batch:731, time:165.14, acc:1.00, loss:0.59
-sentence num: 2078,  segment time = 9.45 
+sentence num: 2078,  segment time = 9.45
 Dev:
 Recall: 57496/59929=0.959402; Precision: 57496/60008=0.958139; Fmeasure: 0.958770
-sentence num: 2795,  segment time = 12.67 
+sentence num: 2795,  segment time = 12.67
 Test:
 Recall: 77866/81579=0.954486; Precision: 77866/81462=0.955857; Fmeasure: 0.955171
 Step:3660, epoch:20, batch:0, time:0.35, acc:1.00, loss:0.24
@@ -15542,10 +15542,10 @@ Step:3842, epoch:20, batch:728, time:163.58, acc:1.00, loss:0.28
 Step:3842, epoch:20, batch:729, time:163.76, acc:1.00, loss:0.94
 Step:3842, epoch:20, batch:730, time:163.99, acc:1.00, loss:0.41
 Step:3842, epoch:20, batch:731, time:164.16, acc:1.00, loss:0.25
-sentence num: 2078,  segment time = 9.48 
+sentence num: 2078,  segment time = 9.48
 Dev:
 Recall: 57504/59929=0.959535; Precision: 57504/60151=0.955994; Fmeasure: 0.957761
-sentence num: 2795,  segment time = 12.59 
+sentence num: 2795,  segment time = 12.59
 Test:
 Recall: 77970/81579=0.955761; Precision: 77970/81684=0.954532; Fmeasure: 0.955146
 Step:3843, epoch:21, batch:0, time:0.21, acc:1.00, loss:0.24
@@ -16280,10 +16280,10 @@ Step:4025, epoch:21, batch:728, time:160.84, acc:1.00, loss:0.61
 Step:4025, epoch:21, batch:729, time:161.05, acc:1.00, loss:0.13
 Step:4025, epoch:21, batch:730, time:161.41, acc:1.00, loss:0.38
 Step:4025, epoch:21, batch:731, time:161.60, acc:1.00, loss:0.33
-sentence num: 2078,  segment time = 9.66 
+sentence num: 2078,  segment time = 9.66
 Dev:
 Recall: 57482/59929=0.959168; Precision: 57482/60088=0.956630; Fmeasure: 0.957898
-sentence num: 2795,  segment time = 12.76 
+sentence num: 2795,  segment time = 12.76
 Test:
 Recall: 77907/81579=0.954988; Precision: 77907/81591=0.954848; Fmeasure: 0.954918
 Step:4026, epoch:22, batch:0, time:0.31, acc:0.99, loss:0.65
@@ -17018,10 +17018,10 @@ Step:4208, epoch:22, batch:728, time:163.61, acc:1.00, loss:0.14
 Step:4208, epoch:22, batch:729, time:163.86, acc:1.00, loss:0.26
 Step:4208, epoch:22, batch:730, time:164.04, acc:1.00, loss:0.23
 Step:4208, epoch:22, batch:731, time:164.23, acc:1.00, loss:0.22
-sentence num: 2078,  segment time = 9.62 
+sentence num: 2078,  segment time = 9.62
 Dev:
 Recall: 57446/59929=0.958568; Precision: 57446/60033=0.956907; Fmeasure: 0.957737
-sentence num: 2795,  segment time = 12.80 
+sentence num: 2795,  segment time = 12.80
 Test:
 Recall: 77828/81579=0.954020; Precision: 77828/81500=0.954945; Fmeasure: 0.954482
 Step:4209, epoch:23, batch:0, time:0.23, acc:1.00, loss:0.46
@@ -17756,10 +17756,10 @@ Step:4391, epoch:23, batch:728, time:160.32, acc:1.00, loss:0.17
 Step:4391, epoch:23, batch:729, time:160.47, acc:1.00, loss:0.31
 Step:4391, epoch:23, batch:730, time:160.67, acc:1.00, loss:0.41
 Step:4391, epoch:23, batch:731, time:160.92, acc:1.00, loss:0.22
-sentence num: 2078,  segment time = 9.35 
+sentence num: 2078,  segment time = 9.35
 Dev:
 Recall: 57504/59929=0.959535; Precision: 57504/60061=0.957427; Fmeasure: 0.958480
-sentence num: 2795,  segment time = 12.69 
+sentence num: 2795,  segment time = 12.69
 Test:
 Recall: 77906/81579=0.954976; Precision: 77906/81528=0.955574; Fmeasure: 0.955275
 Step:4392, epoch:24, batch:0, time:0.23, acc:1.00, loss:0.34
@@ -18494,10 +18494,10 @@ Step:4574, epoch:24, batch:728, time:159.65, acc:1.00, loss:0.12
 Step:4574, epoch:24, batch:729, time:159.84, acc:1.00, loss:0.30
 Step:4574, epoch:24, batch:730, time:160.19, acc:1.00, loss:0.42
 Step:4574, epoch:24, batch:731, time:160.41, acc:1.00, loss:0.59
-sentence num: 2078,  segment time = 9.30 
+sentence num: 2078,  segment time = 9.30
 Dev:
 Recall: 57443/59929=0.958518; Precision: 57443/59929=0.958518; Fmeasure: 0.958518
-sentence num: 2795,  segment time = 12.52 
+sentence num: 2795,  segment time = 12.52
 Test:
 Recall: 77729/81579=0.952806; Precision: 77729/81311=0.955947; Fmeasure: 0.954374
 Step:4575, epoch:25, batch:0, time:0.24, acc:1.00, loss:0.47
@@ -19232,10 +19232,10 @@ Step:4757, epoch:25, batch:728, time:159.56, acc:1.00, loss:0.32
 Step:4757, epoch:25, batch:729, time:159.75, acc:1.00, loss:0.22
 Step:4757, epoch:25, batch:730, time:159.97, acc:1.00, loss:0.41
 Step:4757, epoch:25, batch:731, time:160.16, acc:1.00, loss:0.24
-sentence num: 2078,  segment time = 9.35 
+sentence num: 2078,  segment time = 9.35
 Dev:
 Recall: 57431/59929=0.958317; Precision: 57431/59907=0.958669; Fmeasure: 0.958493
-sentence num: 2795,  segment time = 12.39 
+sentence num: 2795,  segment time = 12.39
 Test:
 Recall: 77771/81579=0.953321; Precision: 77771/81303=0.956558; Fmeasure: 0.954937
 Step:4758, epoch:26, batch:0, time:0.23, acc:1.00, loss:0.34
@@ -19970,10 +19970,10 @@ Step:4940, epoch:26, batch:728, time:158.94, acc:1.00, loss:0.21
 Step:4940, epoch:26, batch:729, time:159.11, acc:1.00, loss:0.45
 Step:4940, epoch:26, batch:730, time:159.29, acc:1.00, loss:0.44
 Step:4940, epoch:26, batch:731, time:159.45, acc:1.00, loss:0.16
-sentence num: 2078,  segment time = 9.51 
+sentence num: 2078,  segment time = 9.51
 Dev:
 Recall: 57520/59929=0.959802; Precision: 57520/60070=0.957550; Fmeasure: 0.958675
-sentence num: 2795,  segment time = 12.80 
+sentence num: 2795,  segment time = 12.80
 Test:
 Recall: 77898/81579=0.954878; Precision: 77898/81551=0.955206; Fmeasure: 0.955042
 Step:4941, epoch:27, batch:0, time:0.22, acc:1.00, loss:0.37
@@ -20708,10 +20708,10 @@ Step:5123, epoch:27, batch:728, time:160.16, acc:1.00, loss:0.14
 Step:5123, epoch:27, batch:729, time:160.40, acc:1.00, loss:0.43
 Step:5123, epoch:27, batch:730, time:160.59, acc:1.00, loss:0.35
 Step:5123, epoch:27, batch:731, time:160.81, acc:1.00, loss:0.82
-sentence num: 2078,  segment time = 9.43 
+sentence num: 2078,  segment time = 9.43
 Dev:
 Recall: 57417/59929=0.958084; Precision: 57417/59883=0.958820; Fmeasure: 0.958452
-sentence num: 2795,  segment time = 12.63 
+sentence num: 2795,  segment time = 12.63
 Test:
 Recall: 77699/81579=0.952439; Precision: 77699/81272=0.956037; Fmeasure: 0.954234
 Step:5124, epoch:28, batch:0, time:0.25, acc:1.00, loss:0.36
@@ -21446,10 +21446,10 @@ Step:5306, epoch:28, batch:728, time:163.51, acc:1.00, loss:0.22
 Step:5306, epoch:28, batch:729, time:163.75, acc:1.00, loss:0.46
 Step:5306, epoch:28, batch:730, time:163.94, acc:1.00, loss:0.67
 Step:5306, epoch:28, batch:731, time:164.16, acc:1.00, loss:0.63
-sentence num: 2078,  segment time = 9.47 
+sentence num: 2078,  segment time = 9.47
 Dev:
 Recall: 57493/59929=0.959352; Precision: 57493/60065=0.957180; Fmeasure: 0.958265
-sentence num: 2795,  segment time = 12.87 
+sentence num: 2795,  segment time = 12.87
 Test:
 Recall: 77832/81579=0.954069; Precision: 77832/81514=0.954830; Fmeasure: 0.954449
 Step:5307, epoch:29, batch:0, time:0.26, acc:0.99, loss:0.30
@@ -22184,10 +22184,10 @@ Step:5489, epoch:29, batch:728, time:162.19, acc:1.00, loss:0.15
 Step:5489, epoch:29, batch:729, time:162.44, acc:1.00, loss:0.17
 Step:5489, epoch:29, batch:730, time:162.65, acc:1.00, loss:0.21
 Step:5489, epoch:29, batch:731, time:162.95, acc:1.00, loss:0.58
-sentence num: 2078,  segment time = 9.53 
+sentence num: 2078,  segment time = 9.53
 Dev:
 Recall: 57490/59929=0.959302; Precision: 57490/60086=0.956795; Fmeasure: 0.958047
-sentence num: 2795,  segment time = 12.54 
+sentence num: 2795,  segment time = 12.54
 Test:
 Recall: 77849/81579=0.954277; Precision: 77849/81552=0.954593; Fmeasure: 0.954435
 Step:5490, epoch:30, batch:0, time:0.22, acc:1.00, loss:0.37
@@ -22922,10 +22922,10 @@ Step:5672, epoch:30, batch:728, time:161.50, acc:1.00, loss:0.32
 Step:5672, epoch:30, batch:729, time:161.75, acc:1.00, loss:0.30
 Step:5672, epoch:30, batch:730, time:161.92, acc:1.00, loss:0.29
 Step:5672, epoch:30, batch:731, time:162.14, acc:1.00, loss:0.21
-sentence num: 2078,  segment time = 9.36 
+sentence num: 2078,  segment time = 9.36
 Dev:
 Recall: 57517/59929=0.959752; Precision: 57517/60085=0.957261; Fmeasure: 0.958505
-sentence num: 2795,  segment time = 12.44 
+sentence num: 2795,  segment time = 12.44
 Test:
 Recall: 77907/81579=0.954988; Precision: 77907/81545=0.955387; Fmeasure: 0.955187
 Step:5673, epoch:31, batch:0, time:0.21, acc:1.00, loss:0.28
@@ -23660,10 +23660,10 @@ Step:5855, epoch:31, batch:728, time:159.18, acc:1.00, loss:0.43
 Step:5855, epoch:31, batch:729, time:159.44, acc:1.00, loss:0.45
 Step:5855, epoch:31, batch:730, time:159.66, acc:1.00, loss:0.43
 Step:5855, epoch:31, batch:731, time:159.83, acc:1.00, loss:0.39
-sentence num: 2078,  segment time = 9.27 
+sentence num: 2078,  segment time = 9.27
 Dev:
 Recall: 57432/59929=0.958334; Precision: 57432/59935=0.958238; Fmeasure: 0.958286
-sentence num: 2795,  segment time = 12.35 
+sentence num: 2795,  segment time = 12.35
 Test:
 Recall: 77746/81579=0.953015; Precision: 77746/81315=0.956109; Fmeasure: 0.954559
 Step:5856, epoch:32, batch:0, time:0.28, acc:1.00, loss:0.13
@@ -24398,10 +24398,10 @@ Step:6038, epoch:32, batch:728, time:158.51, acc:1.00, loss:0.21
 Step:6038, epoch:32, batch:729, time:158.76, acc:1.00, loss:0.18
 Step:6038, epoch:32, batch:730, time:158.94, acc:1.00, loss:0.31
 Step:6038, epoch:32, batch:731, time:159.15, acc:1.00, loss:0.41
-sentence num: 2078,  segment time = 9.56 
+sentence num: 2078,  segment time = 9.56
 Dev:
 Recall: 57458/59929=0.958768; Precision: 57458/59965=0.958192; Fmeasure: 0.958480
-sentence num: 2795,  segment time = 12.34 
+sentence num: 2795,  segment time = 12.34
 Test:
 Recall: 77742/81579=0.952966; Precision: 77742/81394=0.955132; Fmeasure: 0.954048
 Step:6039, epoch:33, batch:0, time:0.25, acc:1.00, loss:0.23
@@ -25136,10 +25136,10 @@ Step:6221, epoch:33, batch:728, time:158.25, acc:1.00, loss:0.37
 Step:6221, epoch:33, batch:729, time:158.41, acc:1.00, loss:0.50
 Step:6221, epoch:33, batch:730, time:158.63, acc:1.00, loss:0.22
 Step:6221, epoch:33, batch:731, time:158.81, acc:1.00, loss:0.36
-sentence num: 2078,  segment time = 9.38 
+sentence num: 2078,  segment time = 9.38
 Dev:
 Recall: 57421/59929=0.958150; Precision: 57421/59933=0.958087; Fmeasure: 0.958119
-sentence num: 2795,  segment time = 12.47 
+sentence num: 2795,  segment time = 12.47
 Test:
 Recall: 77690/81579=0.952328; Precision: 77690/81312=0.955456; Fmeasure: 0.953889
 Step:6222, epoch:34, batch:0, time:0.19, acc:1.00, loss:0.43
@@ -25874,10 +25874,10 @@ Step:6404, epoch:34, batch:728, time:157.64, acc:1.00, loss:0.41
 Step:6404, epoch:34, batch:729, time:157.82, acc:1.00, loss:0.31
 Step:6404, epoch:34, batch:730, time:158.07, acc:1.00, loss:0.36
 Step:6404, epoch:34, batch:731, time:158.27, acc:1.00, loss:0.55
-sentence num: 2078,  segment time = 9.33 
+sentence num: 2078,  segment time = 9.33
 Dev:
 Recall: 57478/59929=0.959102; Precision: 57478/59993=0.958078; Fmeasure: 0.958590
-sentence num: 2795,  segment time = 12.46 
+sentence num: 2795,  segment time = 12.46
 Test:
 Recall: 77785/81579=0.953493; Precision: 77785/81397=0.955625; Fmeasure: 0.954558
 Step:6405, epoch:35, batch:0, time:0.19, acc:1.00, loss:0.32
@@ -26612,10 +26612,10 @@ Step:6587, epoch:35, batch:728, time:158.14, acc:1.00, loss:0.39
 Step:6587, epoch:35, batch:729, time:158.39, acc:1.00, loss:0.27
 Step:6587, epoch:35, batch:730, time:158.49, acc:1.00, loss:0.30
 Step:6587, epoch:35, batch:731, time:158.71, acc:1.00, loss:0.69
-sentence num: 2078,  segment time = 9.18 
+sentence num: 2078,  segment time = 9.18
 Dev:
 Recall: 57498/59929=0.959435; Precision: 57498/60057=0.957390; Fmeasure: 0.958412
-sentence num: 2795,  segment time = 12.24 
+sentence num: 2795,  segment time = 12.24
 Test:
 Recall: 77791/81579=0.953566; Precision: 77791/81495=0.954549; Fmeasure: 0.954058
 Step:6588, epoch:36, batch:0, time:0.22, acc:1.00, loss:0.26
@@ -27350,10 +27350,10 @@ Step:6770, epoch:36, batch:728, time:156.99, acc:1.00, loss:0.13
 Step:6770, epoch:36, batch:729, time:157.21, acc:1.00, loss:0.11
 Step:6770, epoch:36, batch:730, time:157.40, acc:1.00, loss:0.25
 Step:6770, epoch:36, batch:731, time:157.62, acc:1.00, loss:0.21
-sentence num: 2078,  segment time = 9.24 
+sentence num: 2078,  segment time = 9.24
 Dev:
 Recall: 57485/59929=0.959218; Precision: 57485/60010=0.957924; Fmeasure: 0.958571
-sentence num: 2795,  segment time = 12.19 
+sentence num: 2795,  segment time = 12.19
 Test:
 Recall: 77776/81579=0.953383; Precision: 77776/81399=0.955491; Fmeasure: 0.954436
 Step:6771, epoch:37, batch:0, time:0.23, acc:1.00, loss:0.27
@@ -28088,10 +28088,10 @@ Step:6953, epoch:37, batch:728, time:162.17, acc:1.00, loss:0.26
 Step:6953, epoch:37, batch:729, time:162.31, acc:1.00, loss:0.13
 Step:6953, epoch:37, batch:730, time:162.68, acc:1.00, loss:0.45
 Step:6953, epoch:37, batch:731, time:162.90, acc:1.00, loss:0.30
-sentence num: 2078,  segment time = 9.45 
+sentence num: 2078,  segment time = 9.45
 Dev:
 Recall: 57464/59929=0.958868; Precision: 57464/59982=0.958021; Fmeasure: 0.958444
-sentence num: 2795,  segment time = 12.78 
+sentence num: 2795,  segment time = 12.78
 Test:
 Recall: 77758/81579=0.953162; Precision: 77758/81381=0.955481; Fmeasure: 0.954320
 Step:6954, epoch:38, batch:0, time:0.22, acc:1.00, loss:0.29
@@ -28826,10 +28826,10 @@ Step:7136, epoch:38, batch:728, time:164.24, acc:1.00, loss:0.24
 Step:7136, epoch:38, batch:729, time:164.49, acc:1.00, loss:0.21
 Step:7136, epoch:38, batch:730, time:164.70, acc:1.00, loss:0.35
 Step:7136, epoch:38, batch:731, time:164.90, acc:1.00, loss:0.26
-sentence num: 2078,  segment time = 9.54 
+sentence num: 2078,  segment time = 9.54
 Dev:
 Recall: 57450/59929=0.958634; Precision: 57450/59938=0.958490; Fmeasure: 0.958562
-sentence num: 2795,  segment time = 12.64 
+sentence num: 2795,  segment time = 12.64
 Test:
 Recall: 77746/81579=0.953015; Precision: 77746/81326=0.955980; Fmeasure: 0.954495
 Step:7137, epoch:39, batch:0, time:0.22, acc:1.00, loss:0.11
@@ -29564,10 +29564,10 @@ Step:7319, epoch:39, batch:728, time:160.40, acc:1.00, loss:0.50
 Step:7319, epoch:39, batch:729, time:160.65, acc:1.00, loss:0.29
 Step:7319, epoch:39, batch:730, time:160.87, acc:1.00, loss:0.70
 Step:7319, epoch:39, batch:731, time:161.10, acc:1.00, loss:0.19
-sentence num: 2078,  segment time = 9.30 
+sentence num: 2078,  segment time = 9.30
 Dev:
 Recall: 57438/59929=0.958434; Precision: 57438/59905=0.958818; Fmeasure: 0.958626
-sentence num: 2795,  segment time = 12.60 
+sentence num: 2795,  segment time = 12.60
 Test:
 Recall: 77744/81579=0.952990; Precision: 77744/81283=0.956461; Fmeasure: 0.954722
 Step:7320, epoch:40, batch:0, time:0.25, acc:1.00, loss:0.37
@@ -30302,10 +30302,10 @@ Step:7502, epoch:40, batch:728, time:159.40, acc:1.00, loss:0.31
 Step:7502, epoch:40, batch:729, time:159.69, acc:1.00, loss:0.28
 Step:7502, epoch:40, batch:730, time:159.99, acc:1.00, loss:0.49
 Step:7502, epoch:40, batch:731, time:160.30, acc:1.00, loss:0.40
-sentence num: 2078,  segment time = 9.29 
+sentence num: 2078,  segment time = 9.29
 Dev:
 Recall: 57516/59929=0.959736; Precision: 57516/60062=0.957610; Fmeasure: 0.958672
-sentence num: 2795,  segment time = 12.47 
+sentence num: 2795,  segment time = 12.47
 Test:
 Recall: 77845/81579=0.954228; Precision: 77845/81507=0.955071; Fmeasure: 0.954650
 Step:7503, epoch:41, batch:0, time:0.27, acc:1.00, loss:0.10
@@ -31040,10 +31040,10 @@ Step:7685, epoch:41, batch:728, time:157.92, acc:1.00, loss:0.35
 Step:7685, epoch:41, batch:729, time:158.16, acc:1.00, loss:0.26
 Step:7685, epoch:41, batch:730, time:158.34, acc:1.00, loss:0.28
 Step:7685, epoch:41, batch:731, time:158.59, acc:1.00, loss:0.39
-sentence num: 2078,  segment time = 9.17 
+sentence num: 2078,  segment time = 9.17
 Dev:
 Recall: 57467/59929=0.958918; Precision: 57467/59980=0.958103; Fmeasure: 0.958510
-sentence num: 2795,  segment time = 12.30 
+sentence num: 2795,  segment time = 12.30
 Test:
 Recall: 77774/81579=0.953358; Precision: 77774/81398=0.955478; Fmeasure: 0.954417
 Step:7686, epoch:42, batch:0, time:0.20, acc:1.00, loss:0.44
@@ -31778,10 +31778,10 @@ Step:7868, epoch:42, batch:728, time:158.35, acc:1.00, loss:0.32
 Step:7868, epoch:42, batch:729, time:158.55, acc:1.00, loss:0.30
 Step:7868, epoch:42, batch:730, time:158.73, acc:1.00, loss:0.44
 Step:7868, epoch:42, batch:731, time:158.98, acc:1.00, loss:0.32
-sentence num: 2078,  segment time = 9.21 
+sentence num: 2078,  segment time = 9.21
 Dev:
 Recall: 57437/59929=0.958417; Precision: 57437/59923=0.958513; Fmeasure: 0.958465
-sentence num: 2795,  segment time = 12.40 
+sentence num: 2795,  segment time = 12.40
 Test:
 Recall: 77749/81579=0.953052; Precision: 77749/81322=0.956064; Fmeasure: 0.954555
 Step:7869, epoch:43, batch:0, time:0.26, acc:1.00, loss:0.19
@@ -32516,10 +32516,10 @@ Step:8051, epoch:43, batch:728, time:157.40, acc:1.00, loss:0.44
 Step:8051, epoch:43, batch:729, time:157.59, acc:1.00, loss:0.28
 Step:8051, epoch:43, batch:730, time:157.76, acc:1.00, loss:0.28
 Step:8051, epoch:43, batch:731, time:157.92, acc:1.00, loss:0.33
-sentence num: 2078,  segment time = 9.21 
+sentence num: 2078,  segment time = 9.21
 Dev:
 Recall: 57460/59929=0.958801; Precision: 57460/59982=0.957954; Fmeasure: 0.958377
-sentence num: 2795,  segment time = 12.76 
+sentence num: 2795,  segment time = 12.76
 Test:
 Recall: 77762/81579=0.953211; Precision: 77762/81395=0.955366; Fmeasure: 0.954287
 Step:8052, epoch:44, batch:0, time:0.22, acc:1.00, loss:0.37
@@ -33254,10 +33254,10 @@ Step:8234, epoch:44, batch:728, time:157.50, acc:1.00, loss:0.29
 Step:8234, epoch:44, batch:729, time:157.67, acc:1.00, loss:0.16
 Step:8234, epoch:44, batch:730, time:157.88, acc:1.00, loss:0.60
 Step:8234, epoch:44, batch:731, time:158.11, acc:1.00, loss:0.18
-sentence num: 2078,  segment time = 9.21 
+sentence num: 2078,  segment time = 9.21
 Dev:
 Recall: 57448/59929=0.958601; Precision: 57448/59945=0.958345; Fmeasure: 0.958473
-sentence num: 2795,  segment time = 12.38 
+sentence num: 2795,  segment time = 12.38
 Test:
 Recall: 77738/81579=0.952917; Precision: 77738/81351=0.955588; Fmeasure: 0.954250
 Step:8235, epoch:45, batch:0, time:0.19, acc:1.00, loss:0.17
@@ -33992,10 +33992,10 @@ Step:8417, epoch:45, batch:728, time:157.26, acc:1.00, loss:0.37
 Step:8417, epoch:45, batch:729, time:157.51, acc:1.00, loss:0.22
 Step:8417, epoch:45, batch:730, time:157.82, acc:1.00, loss:0.33
 Step:8417, epoch:45, batch:731, time:158.09, acc:1.00, loss:0.27
-sentence num: 2078,  segment time = 9.22 
+sentence num: 2078,  segment time = 9.22
 Dev:
 Recall: 57546/59929=0.960236; Precision: 57546/60094=0.957600; Fmeasure: 0.958916
-sentence num: 2795,  segment time = 12.22 
+sentence num: 2795,  segment time = 12.22
 Test:
 Recall: 77848/81579=0.954265; Precision: 77848/81545=0.954663; Fmeasure: 0.954464
 Step:8418, epoch:46, batch:0, time:0.26, acc:1.00, loss:0.15
@@ -34730,10 +34730,10 @@ Step:8600, epoch:46, batch:728, time:157.46, acc:1.00, loss:0.53
 Step:8600, epoch:46, batch:729, time:157.71, acc:1.00, loss:0.40
 Step:8600, epoch:46, batch:730, time:157.93, acc:1.00, loss:0.49
 Step:8600, epoch:46, batch:731, time:158.17, acc:1.00, loss:0.43
-sentence num: 2078,  segment time = 9.16 
+sentence num: 2078,  segment time = 9.16
 Dev:
 Recall: 57419/59929=0.958117; Precision: 57419/59916=0.958325; Fmeasure: 0.958221
-sentence num: 2795,  segment time = 12.31 
+sentence num: 2795,  segment time = 12.31
 Test:
 Recall: 77730/81579=0.952819; Precision: 77730/81311=0.955959; Fmeasure: 0.954386
 Step:8601, epoch:47, batch:0, time:0.25, acc:1.00, loss:0.34
@@ -35468,10 +35468,10 @@ Step:8783, epoch:47, batch:728, time:158.05, acc:1.00, loss:0.15
 Step:8783, epoch:47, batch:729, time:158.34, acc:1.00, loss:0.33
 Step:8783, epoch:47, batch:730, time:158.58, acc:1.00, loss:0.63
 Step:8783, epoch:47, batch:731, time:158.84, acc:1.00, loss:0.48
-sentence num: 2078,  segment time = 9.04 
+sentence num: 2078,  segment time = 9.04
 Dev:
 Recall: 57496/59929=0.959402; Precision: 57496/60022=0.957915; Fmeasure: 0.958658
-sentence num: 2795,  segment time = 12.39 
+sentence num: 2795,  segment time = 12.39
 Test:
 Recall: 77783/81579=0.953468; Precision: 77783/81455=0.954920; Fmeasure: 0.954194
 Step:8784, epoch:48, batch:0, time:0.35, acc:1.00, loss:0.24
@@ -36206,10 +36206,10 @@ Step:8966, epoch:48, batch:728, time:156.03, acc:1.00, loss:0.17
 Step:8966, epoch:48, batch:729, time:156.25, acc:1.00, loss:0.18
 Step:8966, epoch:48, batch:730, time:156.52, acc:1.00, loss:0.24
 Step:8966, epoch:48, batch:731, time:156.74, acc:1.00, loss:0.31
-sentence num: 2078,  segment time = 9.17 
+sentence num: 2078,  segment time = 9.17
 Dev:
 Recall: 57479/59929=0.959118; Precision: 57479/59996=0.958047; Fmeasure: 0.958582
-sentence num: 2795,  segment time = 12.25 
+sentence num: 2795,  segment time = 12.25
 Test:
 Recall: 77773/81579=0.953346; Precision: 77773/81414=0.955278; Fmeasure: 0.954311
 Step:8967, epoch:49, batch:0, time:0.22, acc:1.00, loss:0.49
@@ -36944,12 +36944,12 @@ Step:9149, epoch:49, batch:728, time:156.89, acc:1.00, loss:0.77
 Step:9149, epoch:49, batch:729, time:157.10, acc:1.00, loss:0.44
 Step:9149, epoch:49, batch:730, time:157.33, acc:1.00, loss:0.11
 Step:9149, epoch:49, batch:731, time:157.52, acc:1.00, loss:0.67
-sentence num: 2078,  segment time = 9.35 
+sentence num: 2078,  segment time = 9.35
 Dev:
 Recall: 57497/59929=0.959419; Precision: 57497/60031=0.957788; Fmeasure: 0.958603
-sentence num: 2795,  segment time = 12.35 
+sentence num: 2795,  segment time = 12.35
 Test:
 Recall: 77782/81579=0.953456; Precision: 77782/81467=0.954767; Fmeasure: 0.954111
-sentence num: 2795,  segment time = 13.18 
+sentence num: 2795,  segment time = 13.18
 Test:
 Recall: 77724/81579=0.952745; Precision: 77724/81064=0.958798; Fmeasure: 0.955762

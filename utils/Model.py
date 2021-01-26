@@ -4,9 +4,9 @@
 # @Email   : yywind@126.com
 # @File    : Model.py
 import torch
-
 from modules.BiLSTM import BiLSTM
-from utils.Utils import load_pkl_data, get_GPU
+from modules.MyCRF import MyCRF
+from utils.Utils import load_pkl_data, split_pretrained_vec, dump_pkl_data
 from allennlp.modules.conditional_random_field import ConditionalRandomField as CRF
 
 
@@ -19,16 +19,16 @@ class Model:
 
     def build(self,vocab,config):
 
-        # 读取预训练向量，用pickle序列化保存起来，方便下次直接使用
+        #读取预训练向量，用pickle序列化保存起来，方便下次直接使用
         # (char_embeddings, char_elem2id, char_id2elem),\
         # (bichar_embeddings, bichar_elem2id, bichar_id2elem)=\
         #     split_pretrained_vec(config.pretrained_embedding_file)
-        # dump_pkl_data((char_embeddings, char_elem2id, char_id2elem), config.save_dir+'char_embed.pkl')
-        # dump_pkl_data((bichar_embeddings, bichar_elem2id, bichar_id2elem), config.save_dir+'bichar_embed.pkl')
+        # dump_pkl_data((char_embeddings, char_elem2id, char_id2elem), config.save_dir+'char_embed_no_std.pkl')
+        # dump_pkl_data((bichar_embeddings, bichar_elem2id, bichar_id2elem), config.save_dir+'bichar_embed_no_std.pkl')
 
-        (exchar_embeddings, vocab.exchar2id, vocab.exid2char) = load_pkl_data(config.save_dir + 'char_embed.pkl')
+        (exchar_embeddings, vocab.exchar2id, vocab.exid2char) = load_pkl_data(config.save_dir + 'char_embed_no_std.pkl')
         (exbichar_embeddings, vocab.exbichar2id, vocab.exid2bichar) = load_pkl_data(
-            config.save_dir + 'bichar_embed.pkl')
+            config.save_dir + 'bichar_embed_no_std.pkl')
         char_embedding_dim = len(exchar_embeddings[0])
         bichar_embedding_dim = len(exbichar_embeddings[0])
 
@@ -37,10 +37,16 @@ class Model:
         config.bichar_dims = bichar_embedding_dim
         self.lstm = BiLSTM(vocab, config)
         self.lstm.init_pretrain_vec(exchar_embeddings, exbichar_embeddings)
-        self.crf = CRF( num_tags=vocab.label_size,
-                        constraints=None,
-                        include_start_end_transitions=False)
-        self.best_model=config.save_dir + '/' + config.best_model_file
+
+        if config.use_own:
+            self.crf = MyCRF(num_tags=vocab.label_size,
+                           constraints=None,
+                           include_start_end_transitions=False)
+        else:
+            self.crf = CRF( num_tags=vocab.label_size,
+                            constraints=None,
+                            include_start_end_transitions=False)
+        self.best_model=config.save_dir + config.best_model_file
         if config.gpu:
             self.use_cuda=True
         else:
@@ -82,6 +88,7 @@ class Model:
     def viterbi_decode(self, labels_mask):
         if self.use_cuda:
             labels_mask=labels_mask.cuda()
+        # self.logit: [batch_size,seq_len,label_cnt] [32,150,2]
         output = self.crf.viterbi_tags(self.logit, labels_mask)
         best_paths = []
         for path, score in output:

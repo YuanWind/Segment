@@ -151,14 +151,12 @@ def train(train_data, dev_data,test_data, vocab, config, model):
                 print(log)
                 log_.fprint_log(log)
                 best_F = dev_F
-
-                if config.save_after >= 0 and iter >= config.save_after:
-                    log=("Save model")
-                    print(log)
-                    log_.fprint_log(log)
-                    model_params = {'lstm': model.lstm.state_dict(),
-                                    'crf': model.crf.state_dict()}
-                    torch.save(model_params, check_exist(config.save_dir,config.best_model_file))
+                log=("Save model")
+                print(log)
+                log_.fprint_log(log)
+                model_params = {'lstm': model.lstm.state_dict(),
+                                'crf': model.crf.state_dict()}
+                torch.save(model_params, check_exist(config.save_dir,config.best_model_file))
 def gen_test_res(test_data, vocab, config, model):
     model.load_stict()
     segment(test_data, model, vocab, config, config.data_dir + config.test_file + '.test.result.txt')
@@ -182,7 +180,7 @@ def segment(data, model, vocab, config, outputFile, split_str=' '):
                 data2variable(onebatch, vocab)
             model.eval()
             model.forward(batch_chars,batch_bichars,batch_exchars,batch_exbichars,char_mask)
-            best_paths = model.viterbi_decode(label_mask) # 维比特算法
+            best_paths = model.viterbi_decode(label_mask) # 维特比算法
             labels = path2labels(best_paths, vocab)
             outputs = labels2output(onebatch, labels)
             for sent in outputs:
